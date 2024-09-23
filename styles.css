@@ -1,0 +1,224 @@
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-color: #ffffff;
+} 
+
+
+.wrapper {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: #fff; /* Light background for visibility */
+}
+
+nav ul {
+    list-style: none; /* Remove default bullets from list */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Adds space between list items */
+}
+
+nav ul li {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #444; /* Link text color */
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+/* Styling for images/icons */
+.app-icon {
+    width: 14px; 
+    height: 14px;
+}
+
+.user-icon {
+    width: 33px;
+    height: 33px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.logo img {
+    width: 272px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 600px;
+    height: 48px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    background-color: white;
+    padding: 0 10px;
+    gap: 10px;
+}
+.input-field {
+    /* justify-content: center;
+    margin-left: 24rem;
+    
+     */
+     border: none;
+     flex: 1;
+}
+
+.input-field:focus {
+    /* justify-content: center;
+    margin-left: 24rem;
+    
+     */
+     outline: none;
+}
+
+.search-bar img {
+    width: 22px;
+    height: 22px;
+}
+
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: whitesmoke;
+    border: 0.1px solid white;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+p {
+    color: #444; /* Link text color */
+    font-weight: lighter;
+    font-size: 13px;
+    
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+ul a:hover{
+    text-decoration: underline;
+} 
+
+.list-item {
+    list-style: none; /* Remove underline from links */
+    font-size: 11px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.footer1 {
+    margin-top: 10rem;
+    margin-left: 2rem;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 14px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px;
+    background-color: #f1f1f1; /* Light background for visibility */
+    color: #444; /* Link text color */
+}
+.footer2 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f1f1f1; /* You can change this color */
+    text-align: center;
+    padding: 15px 2px;
+}
+
+.footer2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; /* Space between the groups */
+    align-items: center;
+}
+
+/* Styling for the first four list items */
+.footer2 li {
+    margin: 5px 15px;
+}
+
+.footer2 li:nth-child(1), 
+.footer2 li:nth-child(2), 
+.footer2 li:nth-child(3), 
+.footer2 li:nth-child(4) {
+    order: 1;
+}
+
+/* The 5th item (centered) */
+.footer2 li:nth-child(5) {
+    margin: 0 auto;
+    order: 2;
+}
+
+.test .box:nth-child(1){
+    background-color: dodgerblue;
+}
+
+.test .box:nth-child(3){
+    display: none;
+}
+
+/* The last three items (aligned to the end) */
+.footer2 li:nth-child(6), 
+.footer2 li:nth-child(7), 
+.footer2 li:nth-child(8) {
+    order: 3;
+}
+
+/* General styling for the links */
+.footer2 a {
+    text-decoration: none;
+    color: #444; /* Link text color */
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer2 a:hover {
+    text-decoration: underline;
+   
+}
+
+.footer2 img {
+    width: 22px;
+    height: 22px;
+}
